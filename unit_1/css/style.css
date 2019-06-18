@@ -1,7 +1,8 @@
 body {
-	background-color: #e9f0f7;
+	background: url ("images/getty.png");
+    background-size: cover;
 }
 
 h1, p {
-	color: #1e2b3c;
+	color: #8ba5aa;
 }
