@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500|Noto+Serif|Playfair+Display&display=swap');
+
+body {
+  height: 600px;
+  width: 450px;
+  color: #3c6870;
+  background-color: #e9f0f7;
+  background-image: url("images/getty.png");
+  background-attachment: fixed;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+q {
+  quotes: "“" "”";
+}
+
+h1{
+	font-size: 60px;
+	font-family: 'Noto Serif', serif;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	line-height: 1.25em;
+
+}
+
+h2{
+	font-family: 'Noto Serif', serif;
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 0.024em;
+	line-height: 1.25em;
+	max-width: 400px;
+
+}
+
+h3{
+	font-family: 'Noto Serif', serif;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.024em;
+	line-height: 1.25em;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.1em;
+	padding-right: 25px;
+	font-size: 16px;
+	max-width: 400px;
+	letter-spacing: 0.03em;
+}
+ul{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	font-weight: 300;
+	line-height: 1.2;
+	margin-left: 0;
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+a:link {
+  color: #3c6870;
+}
+a:hover {
+  color: #8ba5aa;
+}
