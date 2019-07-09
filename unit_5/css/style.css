@@ -1,85 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,500|Noto+Serif|Playfair+Display&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-  height: 100%;
-  width: auto;
   color: #3c6870;
   background-color: #e9f0f7;
-  background-image: url("images/getty.png");
-  background-attachment: fixed;
-  background-position: left bottom;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+section {
+    padding: 5em 0;
+}
+header {
+    float: left;
+    width: 100%;
+}
+#intro{
+  background-image: url("../images/getty.png");
+  background-position: left;
   background-repeat: no-repeat;
-  padding-top: 40px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 40px;
+  height: 90vh;
+  padding: 13em 5em;
 }
-
-div.wrapper{
-	border: 1px black solid;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #FFE2B8;
+h1,h2,h3 {
+	font-family: 'Noto Serif', serif;
+	font-weight: 300;
+	letter-spacing: 0.024em;
 }
-
-nav{
-	background-color: #E8C66A;
-	border: 1px black solid;
-    padding: 20px;
-}
-
-header{
-	background-color: #FFED74;
-	border: 1px black solid;
-    padding: 20px;
-}
-
-header.h2{
-	background-color: #FFED74;
-	border: 1px black solid;
-    padding: 20px;
-}
-
-section{
-	border: 1px black solid;
-    padding: 20px;
-    background-color: #FFE2B8;
-}
-
-aside.list{
-	padding-top: 5px;
-}
-
-article{
-	border: 1px black solid;
-    padding: 20px;
-    background-color: #E89C6C;
-}
-
-aside{
-	border: 1px black solid;
-    padding: 20px;
-    background-color: #FFC675;
-}
-
 h1{
 	font-size: 60px;
 	font-family: 'Noto Serif', serif;
 	font-weight: 400;
 	letter-spacing: 0.025em;
 	line-height: 1.25em;
-	padding-top: 25px;
 }
-
 h2{
-	font-family: 'Noto Serif', serif;
 	font-size: 28px;
-	font-weight: 300;
-	letter-spacing: 0.024em;
-	line-height: 1.25em;
-	max-width: 400px;
 }
-
 h3{
 	font-family: 'Noto Serif', serif;
 	font-size: 16px;
@@ -87,65 +48,21 @@ h3{
 	letter-spacing: 0.024em;
 	line-height: 1.25em;
 }
-
-p{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	line-height: 1.1em;
-	padding-right: 25px;
-	font-size: 16px;
-	max-width: 400px;
-	letter-spacing: 0.03em;
-}
-
 ul{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	letter-spacing: 0.03em;
-	font-weight: 300;
-	line-height: 1.2em;
-	margin-left: 0;
-	padding-left: 0;
 	list-style-position: inside;
 }
-
-ul.nav{
-	list-style-type: none;
-	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-  	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	line-height: 1.1em;
-	font-size: 14px;
-	letter-spacing: 0.03em;
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 1em;
 }
 
 footer{
-	border: 1px black solid;
-    padding: 20px;
-    background-color: #FF957E;
-}
-
-a.nav{
-	text-decoration: none;
-}
-
-li.nav {
-  	float: left;
-}
-
-li a{
-	 display: block;
- 	 padding: 15px 25px 15px 0px;
-}
-
-p.footer{
 	font-size: 14px;
 }
 
-a:link {
-  color: #3c6870;
+a {
+  color: inherit;
 }
 
 a:visited {
