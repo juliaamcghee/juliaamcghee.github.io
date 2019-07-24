@@ -29,7 +29,7 @@ header {
 
 .hero-image {
 	background-image: url("../images/getty.png");
-	height: 100vh;
+	height: 95vh;
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: cover;
