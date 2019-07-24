@@ -239,3 +239,60 @@ a:hover {
 		font-weight: 100; 
   }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 812px){
+	.hero-image {
+		height: 100%;
+		padding: 25px 20px 25px 40px;
+	}
+	.column{
+		display: inline-block;
+		width: 45%;
+	}
+	#column1{
+		float: left;
+		width: 35%;
+		padding: 20px 20px;
+		overflow: auto;
+	}
+	#column2{
+		float: left;
+		padding: 20px 0px 20px 40px;
+		width: 55%;
+	}
+	section {
+		padding: 20px;
+		margin-left: 0px;
+	}
+	footer {
+	    padding: 20px 20px 20px 20px;
+	}
+}
+@media only screen and (min-width: 812px) and (max-width: 1366px){
+	.hero-image {
+		height: 100%;
+		padding: 25px 20px 25px 80px;
+	}
+	.column{
+		display: inline-block;
+		width: 45%;
+	}
+	#column1{
+		float: left;
+		width: 35%;
+		padding: 20px 40px;
+		overflow: auto;
+	}
+	#column2{
+		float: left;
+		padding: 20px 0px 20px 40px;
+		width: 55%;
+	}
+	section {
+		padding: 20px 40px 20px 40px;
+		margin-left: 0px;
+	}
+	footer {
+	    padding: 20px 20px 20px 40px;
+	}
+}
